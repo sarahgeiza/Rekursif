@@ -20,7 +20,11 @@ public class Percobaan2 {
         System.out.print("Pangkat: ");
         pangkat = sc.nextInt();
 
-        System.out.println(hitungPangkat(bilangan, pangkat));
+        System.out.print("Deret: ");
+        for (int i = 1; i <= pangkat; i++) {
+            System.out.print(bilangan + "x");
+        }
 
+        System.out.println("1 = " + hitungPangkat(bilangan, pangkat));
     }
 }
